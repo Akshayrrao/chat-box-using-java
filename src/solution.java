@@ -85,8 +85,8 @@ public class solution extends JFrame implements ActionListener{
 		{
 			msg1=tf1.getText();
 			l2.setText("Message sent");
-			textArea.append("AKSHAY RAO:"+msg1+"\n");
-			textArea1.append("AKSHAY RAO:"+msg1+"\n");
+			textArea.append("User-1:"+msg1+"\n");
+			textArea1.append("User-1:"+msg1+"\n");
 		}
 		
 		if(e.getActionCommand()=="REPLY")
@@ -94,8 +94,8 @@ public class solution extends JFrame implements ActionListener{
 			
 			msg2=tf2.getText();
 			l4.setText("Message sent");
-			textArea.append("AKASH JAIN:"+msg2+"\n");
-			textArea1.append("AKASH JAIN:"+msg2+"\n");
+			textArea.append("User-2:"+msg2+"\n");
+			textArea1.append("User-2:"+msg2+"\n");
 			
 		}
 	}
